@@ -96,9 +96,10 @@ p {
   h2 {
     font-size: 19px;
   }
-  .h3 {
-    font-size: 10px;
-    color: #6c63ff;
+  h3,
+  p,
+  .email-link {
+    font-size: 14px;
   }
   .navigation-links a {
     padding: 10px 8px;
@@ -109,6 +110,9 @@ p {
   }
   .container-projects img {
     display: none;
+  }
+  .container {
+    text-align: center;
   }
   .card-body,
   .card-title {
